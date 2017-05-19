@@ -10,9 +10,14 @@ typedef struct Node {
 
 int main(int argc, char const *argv[]) {
 
-    SmartPointer<Node> head(new Node);
-    head->next = new Node;
-    (head->next)->prev = (head->next);
+    Node* node1 = new Node;
+    Node* node2 = new Node;
+
+    SmartPointer<Node> head(node1);
+
+    // doesn't garbage collect due to circular reference
+    head->next = node2;
+    (head->next)->prev = node1;
 
     return 0;
 }
