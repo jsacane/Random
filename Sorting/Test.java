@@ -1,5 +1,5 @@
 import java.util.Arrays;
-import Sort.*;
+import sort.*;
 
 public class Test {
 
@@ -7,7 +7,7 @@ public class Test {
 
         int[] data = {5, 22, 9, -10, 0, 7, 4, 8, 0, 4};
 
-        Sort.InsertionSort sorter = new Sort.InsertionSort(data);
+        sort.BogoSort sorter = new sort.BogoSort(data);
 
         System.out.println("Original: " + Arrays.toString(data));
         sorter.sortAscending();

@@ -1,10 +1,10 @@
-package Sort;
+package sort;
 
 import java.util.Arrays;
 
 abstract class Sorter {
 
-    private int[] originalData;
+    protected int[] originalData;
     protected int[] data;
 
     public Sorter(int[] data) {
