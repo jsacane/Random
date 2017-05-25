@@ -10,10 +10,6 @@ public class BogoSort extends Sorter {
     public BogoSort(int[] data) {
         super(data);
         rand = new Random();
-        indices = new int[data.length];
-        for (int i=0; i < data.length; i++) {
-            indices[i] = i;
-        }
     }
 
     public void sortAscending() {
