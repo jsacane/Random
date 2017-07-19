@@ -1,2 +1,2 @@
-# ReinventingTheWheel
-A collection of small programs I created to reinvent well-known exercises and algorithms.
+# Random
+A collection of small programs to mess around with when I'm bored
