@@ -108,7 +108,7 @@ public:
     }
 }; // end of class SmartPointer
 
-// bullshit to instantiate static class member outside of class
+// instantiate static class member outside of class
 template <typename T>
 std::map<T*, unsigned> SmartPointer<T>::referenceMap;
 
